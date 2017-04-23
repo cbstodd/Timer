@@ -1,24 +1,19 @@
+/*------------------------------------------------
+ * Mix-ins & Variables */
+/* ------------------------------------------- * / */
+/*------------------------------------------------
+ * Styles */
+/* ------------------------------------------- * / */
 body {
-  background-color: #f8f8f8; }
+  background-color: #f8f8f8;
+  color: #444444; }
 
 .navbar {
   margin-bottom: 60px; }
 
-h1 {
-  color: #5BC0DE; }
-
-a:link {
-  color: #5BC0DE; }
-a:visited {
-  color: #5BC0DE; }
-
-.weather-message {
-  padding-top: 30px; }
-
-div.card {
-  padding: 40px; }
-
-input[type=search] {
-  background-color: #f8f8f8; }
+a:link.navbar-text {
+  color: #f8f8f8 !important; }
+  a:link.navbar-text:visited {
+    color: #f8f8f8 !important; }
 
 /*# sourceMappingURL=main.css.map */
