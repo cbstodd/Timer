@@ -1,3 +1,4 @@
-# react_bootstrap4_boilerplate
+# Timer
 
-tbd
+A simple timer application built with ReactJS and Bootstrap 4.
+
