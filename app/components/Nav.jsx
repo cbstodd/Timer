@@ -7,7 +7,7 @@ const Nav = React.createClass({
         e.preventDefault();
 
         // Code to make onSearch do something.
-   
+
     },
 
     render: function(){

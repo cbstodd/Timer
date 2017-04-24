@@ -3,7 +3,7 @@ let webpack = require('webpack');
 module.exports = {
     entry: ['./app/app.jsx'],
     externals: {},
-    plugins: [new webpack.ProvidePlugin({'$': 'jquery', 'jQuery': 'jquery'})],
+    plugins: [new webpack.ProvidePlugin({ '$': 'jquery', 'jQuery': 'jquery' })],
     output: {
         path: __dirname,
         filename: './public/bundle.js'
