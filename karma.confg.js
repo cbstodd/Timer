@@ -11,7 +11,7 @@ module.exports = function( config ){
             // For these files we want to run webpack to use sourcefiles versus bundle.jsx
             'app/tests/**/*.test.jsx': ['webpack', 'sourcemap']
         },
-        reporters: ['mocha'],
+        reporters: ['mocha'],// dots or progress options
         client: {
             mocha: {
                 timeout: '4000'
