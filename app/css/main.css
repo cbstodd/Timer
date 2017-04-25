@@ -1,19 +1,21 @@
-/*------------------------------------------------
- * Mix-ins & Variables */
-/* ------------------------------------------- * / */
+.bg-faded {
+  background-color: #756963; }
+
+.navbar {
+  margin-bottom: 60px; }
+  .navbar a:link.navbar-text {
+    color: #373534 !important; }
+    .navbar a:link.navbar-text:visited {
+      color: #373534 !important; }
+
 /*------------------------------------------------
  * Styles */
 /* ------------------------------------------- * / */
 body {
   background-color: #2d2d2d;
-  color: #756963; }
+  color: #d5d2d3; }
 
-.navbar {
-  margin-bottom: 60px; }
-
-a:link.navbar-text {
-  color: #f8f8f8 !important; }
-  a:link.navbar-text:visited {
-    color: #f8f8f8 !important; }
+a:link {
+  color: #e89143; }
 
 /*# sourceMappingURL=main.css.map */

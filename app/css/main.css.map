@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": ";;;;;;AAYA,IAAI;EACF,gBAAgB,ECXN,OAAO;EDYjB,KAAK,ECTO,OAAO;;ADWrB,OAAO;EACL,aAAa,EAAE,IAAI;;AAErB,kBAAkB;EAChB,KAAK,EAAE,kBAAqB;EAC5B,0BAAS;IACP,KAAK,EAAE,kBAAqB",
-"sources": ["main.sass","_variables.sass"],
+"mappings": "AAAA,SAAS;EACP,gBAAgB,ECEJ,OAAO;;ADArB,OAAO;EACL,aAAa,EAAE,IAAI;EAEnB,0BAAkB;IAChB,KAAK,EAAE,kBAAqB;IAC5B,kCAAS;MACP,KAAK,EAAE,kBAAqB;;;;;AEFlC,IAAI;EACF,gBAAgB,EDFN,OAAO;ECGjB,KAAK,EDPM,OAAO;;ACSpB,MAAM;EACJ,KAAK,EDJE,OAAO",
+"sources": ["_navbar.sass","_variables.sass","main.sass"],
 "names": [],
 "file": "main.css"
 }

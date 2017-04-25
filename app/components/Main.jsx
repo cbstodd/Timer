@@ -1,10 +1,10 @@
 const React  = require('react'),
-      Nav    = require('Nav');
+      Navbar = require('Navbar');
 
 const Main = ( props ) =>{
     return (
-      <div>          
-          <Nav/>
+      <div>
+          <Navbar/> {/* NAVBAR */}
 
           <div className="container">
               <p>Main.jsx rendererd</p>

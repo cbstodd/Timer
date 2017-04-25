@@ -1,7 +1,7 @@
 const React               = require('react'),
       { Link, IndexLink } = require('react-router');
 
-const Nav = React.createClass({
+const Navbar = React.createClass({
     onSearch: function( e ){
         // Prevents page from reloading.
         e.preventDefault();
@@ -13,21 +13,21 @@ const Nav = React.createClass({
     render: function(){
         return (
           <div>
-              <nav className="navbar navbar-toggleable-md navbar-inverse bg-danger">
+              <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
                   <div className="container">
                       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span className="navbar-toggler-icon"></span>
                       </button>
 
-                      <span className="navbar-brand">ReactBoilerplate</span>
+                      <IndexLink to="/"><span className="navbar-brand" >ReactBoilerplate</span></IndexLink>
 
                       <div className="collapse navbar-collapse" id="navbarNav">
                           <ul className="navbar-nav mr-auto">
                               <li className="nav-item">
-                                  <IndexLink className="nav-link" to="/" activeClassName="active" activeStyle={{ fontWeight: 'bold' }}>Home</IndexLink>
+                                  <IndexLink to="/" className="nav-link" activeClassName="active" activeStyle={{ fontWeight: 'bold' }}>Timer</IndexLink>
                               </li>
                               <li className="nav-item">
-                                  <IndexLink className="nav-link" to="#" activeClassName="active" activeStyle={{ fontWeight: 'bold' }}>Link2</IndexLink>
+                                  <Link to="/countdown" className="nav-link" activeClassName="active" activeStyle={{ fontWeight: 'bold' }}>Countdown</Link>
                               </li>
                           </ul>
                           <a href="http://colinstodd.com" className="navbar-text" target="_blank">Colper</a>
@@ -40,4 +40,4 @@ const Nav = React.createClass({
     }
 });
 
-module.exports = Nav;
+module.exports = Navbar;
